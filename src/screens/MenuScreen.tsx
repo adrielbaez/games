@@ -14,6 +14,11 @@ const MENU_GAMES = [
     title: 'Tic Tac Toe',
     route: 'TicTacToeScreen',
   },
+  {
+    id: 3,
+    title: 'Snake',
+    route: 'SnakeScreen',
+  },
 ];
 
 export const MenuScreen = () => {

@@ -1,0 +1,18 @@
+const SNAKE_INITIAL_POSITION = [{x: 5, y: 5}];
+const FOOD_INITIAL_POSITION = {x: 10, y: 10};
+const GAME_BOUNDS = {
+  xMin: 0,
+  xMax: 35,
+  yMin: 0,
+  yMax: 63,
+};
+const MOVE_INTERVAL = 80;
+const SCORE_INCREMENT = 10;
+
+export {
+  SNAKE_INITIAL_POSITION,
+  FOOD_INITIAL_POSITION,
+  GAME_BOUNDS,
+  MOVE_INTERVAL,
+  SCORE_INCREMENT,
+};
